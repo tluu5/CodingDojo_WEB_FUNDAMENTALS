@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Personal_Portfolio_Style.css">
+</head>
+<body>
+    <h1 class="tomato"><strong>Thieu Hoa Luu</strong></h1>
+    <div id="centerImg">
+        <img src="./20171004_130510.JPG" alt="Programmer Pic" width="400">
+    </div>
+    <h3 class="tomato">Biography</h3>
+    <p>I look for roles in the Software, Operation, and Marketing industries. Three years of customer and team management experience. Three years of independent work, able to generate monthly sales. Three years of working in a fast-paced environment, resolving disputes and customer dissatisfaction. I love to engage in group activities, customer service, and creative development.</p>
+    <p>Age: 23</p>
+    <h3 class="tomato">Interests:</h3>
+    <ul>
+        <li>Teach</li>
+        <li>Running</li>
+        <li>Crafting</li>
+        <li>Gaming</li>
+        <li>Sushi</li>
+    </ul>
+    <h3 class="tomato">My Interest-Subset:</h3>
+    <table>
+        <tr>
+            <th>Favorite Movie</th>
+            <th class="widen">Year</th>
+            <th>Main Actor</th>
+        </tr>
+        <tr>
+            <td><a href="https://www.imdb.com/title/tt1345836/" target="_blank">Knight Rises</a></td>
+            <td class="widen">2012</td>
+            <td>Christian Bale</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.imdb.com/title/tt1877830/" target="_blank">The Batman</a></td>
+            <td class="widen">2022</td>
+            <td>Robert Pattinson</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.imdb.com/title/tt0112462/" target="_blank">Batman Forever</a></td>
+            <td class="widen">1995</td>
+            <td>Val Kilmer</td>
+        </tr>
+    </table>
+    <h3 class="tomato">Contact Me</h3>
+    <form>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="Phone">
+        </div>
+        <div class="form-group">
+            <label for="question">Buy me coffee?</label>
+            <br>
+            <label for="yes">Yes</label>
+            <input type="radio" name="question" value="yes">
+            <label for="no">No</label>
+            <input type="radio" name="question" value="no">
+        </div>
+        <div class="form-group">
+            <label for="fruit">Pick a favorite fruit:</label>
+            <select name="fruit">
+                <option value="Apple">Apple</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Pinapple">Pinapple</option>
+                <option value="Grape">Grape</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="subscribe">Would you like to receive daily newsletter?</label>
+            <input type="checkbox" name="subscribe" checked>
+        </div>
+        <div class="form-group">
+            <input id="submit" type="submit" value="Submit">
+        </div>
+    </form>
+    <p class="tomato">Thank you for your input!</p>
+</body>
+</html>
