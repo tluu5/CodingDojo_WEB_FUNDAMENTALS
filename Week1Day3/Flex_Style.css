@@ -29,6 +29,7 @@
 }
 .boxes{
     width: 200px;
+    margin: 20px;
     height: 200px;
     background-color: aquamarine;
 }
