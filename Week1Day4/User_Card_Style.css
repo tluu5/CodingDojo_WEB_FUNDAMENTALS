@@ -7,20 +7,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .flex-container{
-    width: 1000px;
+    width: 700px;
     margin: 0 auto;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .user-card{
     width: 100%;
-    background-color: #fff;
-    border: 2px solid #999;
+    background-color: green;
+    border: 2px solid yellow;
     margin-bottom: 20px;
     border-radius: 5px;
     font-size: 1.2rem;
-    overflow: hidden;
 }
 .card-header{
     background-color: #17a2b8;
@@ -29,6 +27,7 @@ body{
 }
 .card-body{
     padding: 20px;
+    margin-top: 60px;
 }
 .card-body h1, 
 .card-body h2, 
@@ -38,11 +37,13 @@ body{
 }
 .avatar-m{
     border-radius: 50%;
-    background-color: #fff;
+    background-color: red;
     height: 190px;
     padding: 5px;
     margin-top: 20px;
     margin-left: 20px;
+    position: relative;
+    top: 100px;
 }
 .icon-s{
     height: 20px;
