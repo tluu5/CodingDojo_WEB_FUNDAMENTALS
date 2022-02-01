@@ -45,7 +45,7 @@ body{
     width: 1080px;
     margin: 0 auto;
 }
-.raw{
+.row{
     display: flex;
 }
 .col, .col-2{
