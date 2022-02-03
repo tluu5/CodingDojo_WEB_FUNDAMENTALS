@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="Gaming_Dojo_Style.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="navContents">
+            <h1 id="title">Gaming<span class="purpleText">Dojo</span></h1>
+            <div id="navRight">
+                <select>
+                    <option value="Euro">&euro;Euro</option>
+                    <option value="USD">$USD</option>
+                </select>
+                <div id="cart">
+                    <img src="#" alt="cart">
+                    <p id="cartAmount">0</p>
+                </div>
+                <img src="#" alt="search">
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <h2 id="highlights">Hightlights</h2>
+        <div id="banner">
+            <img src="#" alt="leftArrow" onclick="changeToStonepunk()">
+            <img id="bannerImg" src="#" alt="bannerImg">
+            <img id="rightArrow" src="#" alt="rightArrow" onclick="changeToPixelNinja()">
+        </div>
+        <div id="bannerScroll">
+            <class class="boxes"></class>
+            <class class="boxes purple"></class>
+            <class class="boxes"></class>
+            <class class="boxes"></class>
+        </div>
+        <div id="games">
+            <div class="game">
+                <img src="#" alt="gameImg">
+                <div class="gameInfo">
+                    <h3>Cafe Neko: Gold Edition</h3>
+                    <div class="platforms">
+                        <img src="#" alt="windows">
+                        <img src="#" alt="apple">
+                    </div>
+                    <div class="pricing">
+                        <button class="discount">-20%</button>
+                        <div class="prices">
+                            <p>&euro;14.98</p>
+                            <h3>&euro;10.49<h3>
+                        </div>
+                        <button class="buy" onclick="buy()">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="game">
+                <img src="#" alt="gameImg2">
+                <div class="gameInfo">
+                    <h3>Pixel Ninja 2</h3>
+                    <div class="platforms">
+                        <img src="#" alt="windows">
+                        <img src="#" alt="apple">
+                    </div>
+                    <div class="pricing">
+                        <button class="discount">-10%</button>
+                        <div class="prices">
+                            <p>&euro;14.98</p>
+                            <h3>&euro;10.49<h3>
+                        </div>
+                        <button class="buy" onclick="buy()">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="game">
+                <img src="#" alt="gameImg3">
+                <div class="gameInfo">
+                    <h3>Stonepunk 10000 BCE</h3>
+                    <div class="platforms">
+                        <img src="#" alt="windows">
+                        <img src="#" alt="apple">
+                        <img src="#" alt="linux"
+                        onclick="alert('This game is supported on Linux')">
+                    </div>
+                    <div class="pricing">
+                        <button class="discount">NEW</button>
+                        <div class="prices">
+                            <h3>&euro;10.49<h3>
+                        </div>
+                        <button class="buy" onclick="buy()">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="Gaming_Dojo_Script.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: whitesmoke;
+}
+#navbar{
+    height: 80px;
+    background-color: black;
+    border-top: 10px solid rebeccapurple;
+}
+#navContents{
+    width: 1080px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    color: white;
+    font-size: 50px;
+}
+.purpleText{
+    color: rebeccapurple;
+}
+#navRight{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+select{
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+}
+#cart{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#cart p{
+    font-size: 20px;
+    text-decoration: underline;
+}
+#container{
+    width: 1080px;
+    margin: auto;
+}
+#highlights{
+    margin: 10px 0px;
+}
+#banner{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bannerImg{
+    height: 300px;
+}
+#rightArrow{
+    transform: scaleX(-1);
+}
+#bannerScroll{
+    height: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    width: 60px;
+    height: 10px;
+    background-color: salmon;
+}
+.purple{
+    background-color: rebeccapurple;
+}
+#games{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.game{
+    flex: 1;
+    height: 100%;
+    background-color: white;
+}
+.game img{
+    width: 100%;
+}
+.gameInfo{
+    padding: 10px;
+}
+.platforms{
+    display: flex;
+    margin: 10px 0px 40px 0px;
+}
+.platforms img{
+    width: 40px;
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.prices p{
+    color: gray;
+    text-decoration: line-through;
+    text-align: center;
+}
+button{
+    color: white;
+    width: 70px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+}
+.discount{
+    background-color: rebeccapurple;
+}
+.buy{
+    background-color: mediumseagreen;
+    box-shadow: 2px 2px black;
+}
